@@ -55,6 +55,8 @@
           <url>http://18.207.188.141:8080/manager/html</url>
           <server>tomcat-server</server>
           <path>/studentapp</path>
+          <!-- Add the path to your Tomcat installation -->
+          <tomcatHome>/opt/tomcat</tomcatHome>
         </configuration>
       </plugin>
     </plugins>
